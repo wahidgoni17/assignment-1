@@ -1,0 +1,56 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* header styles */
+.head {
+  background-image: url(../images/banner/banner11.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-content {
+  padding: 215px 850px 300px 140px;
+}
+.head-title {
+  color: #020202;
+  font-weight: 650;
+  font-size: 60px;
+}
+.head-descr {
+  color: #7a7777;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.btn-primary {
+  background-color: coral;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+/* failure section styles */
+.failure {
+  display: flex;
+  gap: 85px;
+}
+.failure-image {
+  padding-left: 50px;
+}
+.failure-content {
+  padding-top: 200px;
+  padding-right: 50px;
+}
+.failure-title {
+  font-weight: 500;
+  font-size: 40px;
+}
+.failure-sub-title {
+  font-weight: 300;
+  font-size: 20px;
+  color: #7a7777;
+}
+.failure-list{
+    color: #6d6565; 
+}
