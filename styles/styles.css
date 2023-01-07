@@ -54,7 +54,7 @@
 .failure-list{
     color: #6d6565; 
 }
-/* plans section */
+/* plans section styles */
 .plans-title{
   text-align: center;
   font-weight: 550;
@@ -77,4 +77,29 @@
   font-size: 20px;
   color: #7a7777;
   margin-top: 5px;
+}
+/* gradient section styles */
+.gradient{
+  background: url(../images/gradient1.png), url(../images/watch.png);
+  background-blend-mode: ;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+.gradient-content{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 330px;
+}
+.gradient-title{
+  font-weight: 650;
+  font-size: 45px;
+}
+.gradient-content .btn-primary{
+  border-radius: 5px;
+  border: none;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: rgb(93, 156, 216); 
+  background-color: aliceblue;
 }
