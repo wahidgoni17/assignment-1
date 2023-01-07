@@ -1,8 +1,7 @@
 * {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-/* header styles */
+/* header section styles */
 .head {
   background-image: url(../images/banner/banner11.png);
   background-position: center;
@@ -13,7 +12,7 @@
 }
 .head-title {
   color: #020202;
-  font-weight: 650;
+  font-weight: 700;
   font-size: 60px;
 }
 .head-descr {
@@ -23,7 +22,7 @@
   margin-top: 10px;
 }
 .btn-primary {
-  background-color: coral;
+  background-color: rgb(236, 93, 41);
   color: white;
   border-radius: 5px;
   border: none;
@@ -33,74 +32,105 @@
 /* failure section styles */
 .failure {
   display: flex;
-  gap: 85px;
 }
 .failure-image {
   padding-left: 50px;
+  margin: 100px 50px 80px 60px;
 }
 .failure-content {
-  padding-top: 200px;
-  padding-right: 50px;
+  padding: 180px 10px 5px 100px;
 }
 .failure-title {
   font-weight: 500;
-  font-size: 45px;
+  font-size: 40px;
 }
 .failure-sub-title {
   font-weight: 300;
   font-size: 20px;
   color: #7a7777;
 }
-.failure-list{
-    color: #6d6565; 
+.failure-list {
+  color: #6d6565;
 }
 /* plans section styles */
-.plans-title{
-  text-align: center;
-  font-weight: 550;
-  font-size: 35px;
+.plans-container {
+  margin: 100px 50px 80px 60px;
 }
-.plans-content{
+.plans-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+}
+.plans-content {
   display: flex;
   justify-content: space-around;
-  gap: 10px;
   text-align: center;
   margin-top: 55px;
   padding-left: 55px;
+  padding-right: 55px;
 }
-.plans-sub-title{
+.plans-sub-title {
   font-weight: 700;
   font-size: 30px;
 }
-.plans-descr{
+.plans-descr {
   font-weight: 400;
   font-size: 20px;
   color: #7a7777;
-  margin-top: 5px;
 }
 /* gradient section styles */
-.gradient{
+.gradient {
   background: url(../images/gradient1.png), url(../images/watch.png);
-  background-blend-mode: ;
   background-position: center;
   background-repeat: no-repeat;
   text-align: left;
+  margin: 100px 50px 80px 60px;
 }
-.gradient-content{
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 330px;
+.gradient-content {
+  padding: 60px 1px 80px 225px;
 }
-.gradient-title{
+.gradient-title {
   font-weight: 650;
   font-size: 45px;
   color: aliceblue;
 }
-.gradient-content .btn-primary{
+.gradient-content .btn-primary {
   border-radius: 5px;
   border: none;
   padding: 15px 20px;
-  font-size: 20px;
-  color: rgb(93, 156, 216); 
+  font-size: 22px;
+  color: rgb(93, 156, 216);
   background-color: aliceblue;
+}
+/* future section styles */
+.future {
+  display: flex;
+  background-color: #020202;
+  color: white;
+  gap: 330px;
+}
+.future-content {
+  padding: 130px 1px 130px 180px;
+}
+.future-title {
+  font-weight: 600;
+  font-size: 40px;
+}
+.subscribe-content {
+  padding: 135px 180px 130px 0px;
+}
+input {
+  margin-bottom: 15px;
+  padding: 22px 158px 22px 22px;
+  border-radius: 5px;
+  border: 2px solid white;
+  font-weight: 400;
+  font-size: 16px;
+}
+.future .btn-primary {
+  background-color: rgb(1, 1, 192);
+}
+a {
+  text-decoration: none;
+  margin-top: 15px;
 }
