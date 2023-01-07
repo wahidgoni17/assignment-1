@@ -44,7 +44,7 @@
 }
 .failure-title {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 45px;
 }
 .failure-sub-title {
   font-weight: 300;
@@ -53,4 +53,28 @@
 }
 .failure-list{
     color: #6d6565; 
+}
+/* plans section */
+.plans-title{
+  text-align: center;
+  font-weight: 550;
+  font-size: 35px;
+}
+.plans-content{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  text-align: center;
+  margin-top: 55px;
+  padding-left: 55px;
+}
+.plans-sub-title{
+  font-weight: 700;
+  font-size: 30px;
+}
+.plans-descr{
+  font-weight: 400;
+  font-size: 20px;
+  color: #7a7777;
+  margin-top: 5px;
 }
