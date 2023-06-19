@@ -8,12 +8,11 @@
   background-repeat: no-repeat;
 }
 .header-content {
-  padding: 215px 850px 300px 140px;
+  padding: 120px 800px 120px 140px;
 }
 .head-title {
   color: #020202;
-  font-weight: 700;
-  font-size: 60px;
+  font-size: 50px;
 }
 .head-descr {
   color: #7a7777;
@@ -22,39 +21,50 @@
   margin-top: 10px;
 }
 .btn-primary {
-  background-color: rgb(236, 93, 41);
+  background-color: rgb(75, 19, 204);
   color: white;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: none;
+  transition: transform 3s;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+.btn-primary:hover {
+  background-color: rgb(18, 80, 212);
+  color: white;
+  transform: rotate(360deg);
+  border-radius: 10px;
   border: none;
   padding: 15px 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 /* failure section styles */
 .failure {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .failure-image {
-  padding-left: 50px;
-  margin: 100px 50px 80px 60px;
+  margin: 80px 80px 30px 0px;
 }
 .failure-content {
-  padding: 180px 10px 5px 100px;
+  padding: 20px 30px 5px 30px;
 }
 .failure-title {
-  font-weight: 500;
-  font-size: 40px;
+  font-size: 38px;
 }
 .failure-sub-title {
   font-weight: 300;
   font-size: 20px;
-  color: #7a7777;
+  color: #474141;
 }
 .failure-list {
-  color: #6d6565;
+  font-size: 17px;
+  color: #554f4f;
 }
 /* plans section styles */
 .plans-container {
-  margin: 100px 50px 80px 60px;
+  margin: 100px 50px;
 }
 .plans-title {
   text-align: center;
@@ -63,11 +73,25 @@
 }
 .plans-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
-  margin-top: 55px;
+  margin-top: 50px;
   padding-left: 55px;
   padding-right: 55px;
+}
+.plans-content:hover {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 50px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.plans{
+  transition: transform 3s;
+}
+.plans:hover{
+  transform: rotate(360deg);
 }
 .plans-sub-title {
   font-weight: 700;
@@ -95,12 +119,22 @@
   color: aliceblue;
 }
 .gradient-content .btn-primary {
-  border-radius: 5px;
+  border-radius: 15px;
   border: none;
   padding: 15px 20px;
   font-size: 22px;
   color: rgb(93, 156, 216);
   background-color: aliceblue;
+}
+.gradient-content .btn-primary:hover {
+  transition: 1s;
+  transform: rotate(90);
+  border-radius: 15px;
+  border: none;
+  padding: 15px 20px;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(63, 142, 211);
 }
 /* future section styles */
 .future {
